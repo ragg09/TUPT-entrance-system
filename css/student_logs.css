@@ -1,0 +1,175 @@
+.b-right-left{
+	border: 1px solid black;
+	height: 98%;
+	width: 48.5%;
+	margin: 0.5%;
+	/*--------------*/
+	/*ginawa kong right*/
+	float: right;
+	/*--------------*/
+	overflow-y: scroll;
+}
+
+.b-right-right{
+	border: 1px solid black;
+	height: 98%;
+	width: 48.5%;
+	margin: 0.5%;
+	/*--------------*/
+	/*ginawa kong left*/
+	/*float: right;*/
+	float: left;
+	/*--------------*/
+	overflow-y: scroll;
+}
+
+.avatar{
+	border: 1px solid black;
+	height: 25%;
+	width: 25%;
+	margin: 3%;
+	float: left;
+}
+
+.avatar_logout{
+	border: 1px solid black;
+	height: 25%;
+	width: 25%;
+	margin: 3%;
+	float: left;
+}
+
+
+#item_form{
+	margin-left: 2%;
+	width: 98%;
+	height: 40px;
+}
+
+#item_form input{
+	height: 30px;
+	width: 30px;
+}
+
+#item_form label{
+	font-size: 30px;
+}
+
+#item_form #item_other{
+	height: 40px;
+	width: 200px;
+	font-size: 25px;
+}
+
+#item_form #submit{
+	height: 50px;
+	width: 300px;
+	font-size: 25px;
+}
+
+#mode_of_entry{
+	height: 40px;
+	width: 98%;
+	margin-left: 2%;
+}
+
+#mode_of_entry input{
+	height: 30px;
+	width: 30px;
+}
+
+#mode_of_entry #plate{
+	height: 30px;
+	width: 150px;
+}
+
+#mode_of_entry label{
+	font-size: 30px;
+}
+
+.b-right-right .avatar{
+	position: relative;
+	left: 40%;
+}
+
+.b-right-right .content{
+	position: relative;
+	top: 200px;
+
+} 
+
+/*#stud_fetch_out{
+	position: relative;
+	border: 1px solid red;
+
+}
+*/
+
+/*------------------------------------------------------------SMALL SCREEN--------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1550px) {
+	#item_form label{
+		font-size: 25px;
+	}
+}
+
+/*-------------------------------------------------------------TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1420px) {
+	#item_form label{
+		font-size: 20px;
+	}
+}
+
+/*-------------------------------------------------------------NEXT2 TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1270px) {
+	#mode_of_entry label{
+		font-size: 16px;
+	}
+
+	#item_form label{
+		font-size: 16px;
+	}
+
+	.avatar{
+		display: none;
+	}
+
+	.avatar_logout{
+		display: none;
+	}
+
+}
+
+/*-------------------------------------------------------------NEXT3 TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1110px) {
+	#mode_of_entry label{
+		font-size: 12px;
+	}
+
+	#item_form label{
+		font-size: 12px;
+	}
+
+}
+
+/*-------------------------------------------------------------PHONE SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 960px) {
+	.b-right-left{
+		border: 1px solid black;
+		height: auto;
+		width: 98%;
+		position: relative;
+	}
+
+	.b-right-right{
+		border: 1px solid black;
+		height: auto;
+		width: 98%;
+
+		position: relative;
+	}
+}

@@ -1,0 +1,257 @@
+body{
+	background-image: -webkit-radial-gradient(circle, maroon, white, maroon);
+	font-family: sans-serif, Helvetica, Arial, Verdana;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+background: transparent;
+}
+
+#tupt-logo{
+	position: fixed;
+	max-height: 500px;
+	max-width: :500px;
+	z-index: 1;
+	right: 20px;
+	top: 20px;
+	opacity: 0.1;
+}
+
+.main-div{
+	border: 1px solid black;
+	height: 95vh;
+	width: 98%;
+	margin: 1%;
+	background-image: -webkit-radial-gradient(circle, maroon, white, maroon);
+
+}
+
+.main-div hr{
+	border: 1.5px dashed black;
+	width: 70%;
+}
+
+.header{
+	border: 1px solid black;
+	height: 10%;
+	width: 99%;
+	margin: 0.5%;
+	position: relative;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+
+.header input{
+	font-size: 25px;
+}
+
+.header input:hover{
+	background-color: maroon;
+	color: white;
+}
+
+
+.header-input{
+	position: absolute;
+	top: 50%;
+	left: 1%;
+}
+
+.body{
+	border: 1px solid black;
+	height: 83%;
+	width: 99%;
+	margin: 0.5%;
+	position: relative;
+	background-color: maroon;
+	background-color: #F5F5F5;
+
+}
+
+.b-left{
+	border: 1px solid black;
+	height: 97%;
+	width: 15%;
+	margin: 0.5%;
+	position: relative;
+	float: left;
+	
+}
+
+.b-left input{
+	font-size: 25px;
+	margin-top: 5%;
+	width: 80%;
+	height: 50px;
+}
+
+.b-left input:hover{
+	background-color: maroon;
+	color: white;
+}
+
+.b-left-input{
+
+}
+
+
+.b-left-input input{
+	font-size: 25px;
+}
+
+
+.b-right{
+	border: 1px solid black;
+	height: 97%;
+	width: 82.5%;
+	margin: 0.5%;
+	position: relative;
+	float: right;
+	z-index: 2;
+}
+
+.footer{
+	border: 1px solid black;
+	height: 2%;
+	width: 99%;
+	margin: 0.5%;
+	position: relative;
+	background-color: #F5F5F5;
+}
+
+.footer p{
+	font-size: 6px;
+	text-align: center;
+}
+
+/*#active{
+	background-color: maroon;
+	color: white;
+}*/
+
+#burger1{
+	height: 20px;
+	width: 30px;
+	border: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000; 
+}
+
+#burger2{
+	height: 20px;
+	width: 30px;
+	border: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+/*------------------------------------------------------------SMALL SCREEN--------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1550px) {
+ 
+}
+
+/*-------------------------------------------------------------TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1185px) {
+  
+}
+
+/*-------------------------------------------------------------NEXT2 TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1270px) {
+	
+}
+
+/*-------------------------------------------------------------NEXT3 next TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1110px) {
+	
+}
+
+/*-------------------------------------------------------------PHONE SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 960px) {
+	.main-div{
+	border: 1px solid black;
+	height: 100%;
+	width: 98%;
+	margin: 1%;
+	background-image: -webkit-radial-gradient(circle, maroon, white, maroon);
+	}
+
+	.main-div hr{
+		border: 1.5px dashed black;
+		width: 70%;
+	}
+
+	.header{
+		border: 1px solid black;
+		height: 50px;
+		width: 99%;
+		margin: 0.5%;
+		position: relative;
+		background-color: #F5F5F5;
+		overflow: hidden;
+	}
+
+	.header input{
+		font-size: 20px;
+	}
+
+	.header-input{
+		position: absolute;
+		top: 20%;
+		left: 1%;
+	}
+
+	.body{
+		overflow: scroll;
+
+	}
+
+	.b-left{
+		position: absolute;
+		height: 98%;
+		
+	}
+
+	.b-left input{
+		font-size: 25px;
+		margin-top: 5%;
+		width: 80%;
+		height: 50px;
+	}
+
+	.b-left input:hover{
+		background-color: maroon;
+		color: white;
+	}
+
+	.b-left-input{
+
+	}
+
+
+	.b-left-input input{
+		font-size: 20px;
+	}
+
+
+	.b-right{
+		border: 1px solid black;
+		height: auto;
+		width: 82.5%;
+		position: relative;
+		float: right;
+		z-index: 2;
+	}
+	
+}

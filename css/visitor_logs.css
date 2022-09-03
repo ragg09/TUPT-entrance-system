@@ -1,0 +1,146 @@
+.b-right-left{
+	border: 1px solid black;
+	height: 98%;
+	width: 48.5%;
+	margin: 0.5%;
+	/*--------------*/
+	/*ginawa kong right*/
+	float: right;
+	/*--------------*/
+	overflow-y: scroll;
+}
+
+.b-right-right{
+	border: 1px solid black;
+	height: 98%;
+	width: 48.5%;
+	margin: 0.5%;
+	/*--------------*/
+	/*ginawa kong left*/
+	/*float: right;*/
+	float: left;
+	/*--------------*/
+	overflow-y: scroll;
+}
+form{
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+form label{
+	font-size: 19px	;
+}
+
+table {
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+}
+
+fieldset{
+	margin-left: 5%;
+	margin-bottom: 2%;
+	width: 70%;
+}
+
+#visitor_form{
+	margin-left: 2%;
+	width: 98%;
+}
+
+#visitor_form label{
+	font-size: 30px;
+}
+
+.b-right-right input{
+	height: 25px;
+}
+
+.b-right-left input{
+	height: 25px;
+}
+
+fieldset input{
+	height: 25px;
+	width: 25px;
+}
+
+.b-right-right table{
+	width: 95%;	
+	height: 500px;
+}
+
+.b-right-right input{
+	height: 40px;
+	width: 400px;
+}
+
+.b-right-right label{
+	font-size: 30px;
+}
+
+#breaker{
+		display: none;
+	}
+#bc1{
+	display: none;
+}
+
+/*------------------------------------------------------------SMALL SCREEN--------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1550px) {
+}
+
+/*-------------------------------------------------------------TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1420px) {
+	#breaker{
+		display: block;
+	}
+
+	#add_log label{
+		font-size: 16px;
+	}
+
+}
+
+/*-------------------------------------------------------------NEXT2 TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1270px) {
+	#bc2{
+	display: none;
+	}
+
+	#bc1{
+	display: block;
+	margin-top: 10px;
+	}
+
+}
+
+/*-------------------------------------------------------------NEXT3 TABLET SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1110px) {
+
+}
+
+/*-------------------------------------------------------------PHONE SIZE-------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 960px) {
+	.b-right-left{
+		border: 1px solid black;
+		height: auto;
+		width: 98%;
+		position: relative;
+	}
+
+	.b-right-right{
+		border: 1px solid black;
+		height: auto;
+		width: 98%;
+
+		position: relative;
+	}	
+}
+
+
+
